@@ -1,3 +1,17 @@
+## [1.0.5-0](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.4-0...v1.0.5-0) (2023-04-25)
+
+
+### Bug Fixes
+
+* 修改pkg入口文件 ([50a3f3b](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/50a3f3b7fda0d9407cc02b863de88d0bd7089251))
+
+
+### Features
+
+* 修改版本号1.0.4-0 ([53ba39b](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/53ba39b21710d0b745a69ce19b7486a6dcc6ef09))
+
+
+
 ## [1.0.4-0](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.3...v1.0.4-0) (2023-04-25)
 
 
