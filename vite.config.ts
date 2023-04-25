@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, "src/index.ts"),
-      formats: ["cjs", "umd"],
+      formats: ["es"],
       name: "PiniaSfPersistenceStorage",
       // the proper extensions will be added
       fileName: "pinia-sf-persistence-storage",

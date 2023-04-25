@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@saofeng_cyber/pinia-sf-persistence-storage':
+    specifier: 1.0.5-0
+    version: 1.0.5-0(crypto-js@4.1.1)(pinia@2.0.35)
   pinia:
     specifier: ^2.0.35
     version: 2.0.35(typescript@5.0.2)(vue@3.2.47)
@@ -340,6 +343,16 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
     dev: true
+
+  /@saofeng_cyber/pinia-sf-persistence-storage@1.0.5-0(crypto-js@4.1.1)(pinia@2.0.35):
+    resolution: {integrity: sha512-qpioB/W361voNR4V803S3ylwe5FdpAM554/IidaoLQuEr9coK9CReffW9t+g07OuyRDZHzNFV90+wLgn+W5dpA==}
+    peerDependencies:
+      crypto-js: ^4.1.1
+      pinia: ^2.0.35
+    dependencies:
+      crypto-js: 4.1.1
+      pinia: 2.0.35(typescript@5.0.2)(vue@3.2.47)
+    dev: false
 
   /@types/json-schema@7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
@@ -786,6 +799,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /crypto-js@4.1.1:
+    resolution: {integrity: sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==}
+    dev: false
 
   /cssesc@3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}

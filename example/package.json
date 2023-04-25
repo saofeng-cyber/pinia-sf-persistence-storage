@@ -17,6 +17,7 @@
     ]
   },
   "dependencies": {
+    "@saofeng_cyber/pinia-sf-persistence-storage": "1.0.5-0",
     "pinia": "^2.0.35",
     "vue": "^3.2.47"
   },

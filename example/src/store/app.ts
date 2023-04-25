@@ -12,7 +12,6 @@ export const useAppStore = defineStore('app', {
     enable: true,
     key: 'saofeng',
     storageType: 'local',
-    reset: true,
     isEncrypto: true
   }
 });
