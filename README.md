@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to @saofeng_cyber/pinia-sf-persistence-storage 👋</h1>
-<p>
+<p align="center">
   <a href="https://www.npmjs.com/package/@saofeng_cyber/pinia-sf-persistence-storage" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@saofeng_cyber/pinia-sf-persistence-storage.svg">
   </a>
@@ -69,7 +69,7 @@ interface PersistType {
    */
   isEncrypto: boolean;
 }
-
+```
 
 ## Author
 
