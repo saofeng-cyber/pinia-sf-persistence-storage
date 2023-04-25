@@ -31,13 +31,11 @@
     "crypto-js": "^4.1.1",
     "husky": "^8.0.3",
     "pinia": "^2.0.35",
-    "tsup": "^6.7.0"
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "pinia": "^2.0.0"
   },
-  "readme": "<p align=\"center\">\n  <img alt=\"\" src=\"https://i.imgur.com/prUNzrf.png\">\n</p>\n\n<p align=\"center\">\n  <i>Artwork from <a href=\"https://pinia.vuejs.org/\">Pinia</a></i>\n</p>\n\n<h1 align=\"center\">@saofeng_cyber/pinia-sf-persistence-storage</h1>\n<p align=\"center\">Persistence and rehydration of Pinia stores, backed by `browser.storage`.</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/pinia-plugin-webext-storage\"><img alt=\"npm\" src=\"https://img.shields.io/github/package-json/v/ohmree/pinia-plugin-webext-storage?style=flat&color=orange\" /></a>\n  <a href=\"https://github.com/ohmree/pinia-plugin-webext-storage/tree/HEAD/LICENSE.md\"><img alt=\"License\" src=\"https://img.shields.io/github/license/ohmree/pinia-plugin-webext-storage?style=flat&color=blue\" /></a>\n</p>",
-  "dependencies": {
-    "typescript": "^5.0.4"
-  }
+  "readme": "<p align=\"center\">\n  <img alt=\"\" src=\"https://i.imgur.com/prUNzrf.png\">\n</p>\n\n<p align=\"center\">\n  <i>Artwork from <a href=\"https://pinia.vuejs.org/\">Pinia</a></i>\n</p>\n\n<h1 align=\"center\">@saofeng_cyber/pinia-sf-persistence-storage</h1>\n<p align=\"center\">Persistence and rehydration of Pinia stores, backed by `browser.storage`.</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/pinia-plugin-webext-storage\"><img alt=\"npm\" src=\"https://img.shields.io/github/package-json/v/ohmree/pinia-plugin-webext-storage?style=flat&color=orange\" /></a>\n  <a href=\"https://github.com/ohmree/pinia-plugin-webext-storage/tree/HEAD/LICENSE.md\"><img alt=\"License\" src=\"https://img.shields.io/github/license/ohmree/pinia-plugin-webext-storage?style=flat&color=blue\" /></a>\n</p>"
 }
