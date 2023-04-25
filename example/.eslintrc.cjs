@@ -11,7 +11,6 @@ module.exports = {
     ],
     "overrides": [
     ],
-    "parser": "vue-eslint-parser",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"

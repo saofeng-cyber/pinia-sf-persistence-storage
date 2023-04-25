@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@saofeng_cyber/pinia-sf-persistence-storage':
-    specifier: 1.0.5-0
-    version: 1.0.5-0(crypto-js@4.1.1)(pinia@2.0.35)
+    specifier: 1.0.6-0
+    version: 1.0.6-0(crypto-js@4.1.1)(pinia@2.0.35)
   pinia:
     specifier: ^2.0.35
     version: 2.0.35(typescript@5.0.2)(vue@3.2.47)
@@ -36,9 +36,6 @@ devDependencies:
   vite:
     specifier: ^4.3.0
     version: 4.3.0
-  vue-eslint-parser:
-    specifier: ^9.1.1
-    version: 9.1.1(eslint@8.39.0)
   vue-tsc:
     specifier: ^1.2.0
     version: 1.2.0(typescript@5.0.2)
@@ -344,8 +341,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@saofeng_cyber/pinia-sf-persistence-storage@1.0.5-0(crypto-js@4.1.1)(pinia@2.0.35):
-    resolution: {integrity: sha512-qpioB/W361voNR4V803S3ylwe5FdpAM554/IidaoLQuEr9coK9CReffW9t+g07OuyRDZHzNFV90+wLgn+W5dpA==}
+  /@saofeng_cyber/pinia-sf-persistence-storage@1.0.6-0(crypto-js@4.1.1)(pinia@2.0.35):
+    resolution: {integrity: sha512-v4k+O7gcPYRWeGxiJ8eDrvN5Ho+CTn1tHRL9gdmP+0wsTF6QA7vvYd0qHSHbsePt5ZG0YNtGGAcIxg8bPv/Vmw==}
     peerDependencies:
       crypto-js: ^4.1.1
       pinia: ^2.0.35

@@ -1,8 +1,7 @@
 import { defineStore } from 'pinia';
+import { AppState, get_app_setting, local_key } from './help';
 export const useAppStore = defineStore('app', {
-  state: () => ({
-    count: 0
-  }),
+  state: (): AppState => get_app_setting(),
   actions: {
     increment() {
       this.count++;
@@ -10,8 +9,8 @@ export const useAppStore = defineStore('app', {
   },
   persist: {
     enable: true,
-    key: 'saofeng',
+    key: local_key,
     storageType: 'local',
-    isEncrypto: true
+    isEncrypto: false
   }
 });

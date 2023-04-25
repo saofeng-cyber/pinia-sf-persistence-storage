@@ -17,7 +17,7 @@
     ]
   },
   "dependencies": {
-    "@saofeng_cyber/pinia-sf-persistence-storage": "1.0.5-0",
+    "@saofeng_cyber/pinia-sf-persistence-storage": "1.0.6-0",
     "pinia": "^2.0.35",
     "vue": "^3.2.47"
   },
@@ -30,7 +30,6 @@
     "prettier": "^2.8.8",
     "typescript": "^5.0.2",
     "vite": "^4.3.0",
-    "vue-eslint-parser": "^9.1.1",
     "vue-tsc": "^1.2.0"
   }
 }

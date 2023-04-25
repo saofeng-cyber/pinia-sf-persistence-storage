@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import './style.css';
 import App from './App.vue';
 import { createPinia } from 'pinia';
-import { myPiniaStoragePlugin } from '../../lib/pinia-sf-persistence-storage.js';
+import { myPiniaStoragePlugin } from '@saofeng_cyber/pinia-sf-persistence-storage';
 const app = createApp(App);
 const store = createPinia();
 store.use(myPiniaStoragePlugin);
