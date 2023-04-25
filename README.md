@@ -1,20 +1,31 @@
-# pinia 持久化插件
+<h1 align="center">Welcome to @saofeng_cyber/pinia-sf-persistence-storage 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/@saofeng_cyber/pinia-sf-persistence-storage" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@saofeng_cyber/pinia-sf-persistence-storage.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
+> pinia持久化插件，如果有bug或者新的建议可以提issue
+
+### 🏠 [Homepage](https://github.com/saofeng-cyber/pinia-sf-persistence-storage)
 
 ## 安装
 
-```pnpm
+```sh
 pnpm add @saofeng_cyber/pinia-sf-persistence-storage
 ```
-
 或者
 
-```yarn
+```sh
 yarn add @saofeng_cyber/pinia-sf-persistence-storage
 ```
 
 或者
 
-```npm
+```sh
 npm add @saofeng_cyber/pinia-sf-persistence-storage
 ```
 
@@ -58,8 +69,17 @@ interface PersistType {
    */
   isEncrypto: boolean;
 }
-```
 
-## 授权
 
-MIT 授权。
+## Author
+
+👤 **saofeng**
+
+* Github: [@saofeng\_cyber](https://github.com/saofeng\_cyber)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
