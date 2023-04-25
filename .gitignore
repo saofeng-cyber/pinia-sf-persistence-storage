@@ -11,3 +11,4 @@ example
 dist
 coverage
 /.log/
+src
