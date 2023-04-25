@@ -3,8 +3,8 @@
   "version": "1.0.4-0",
   "description": "pinia持久化插件，如果有bug或者新的建议可以提issue",
   "type": "commonjs",
-  "main": "lib/pinia-sf-storage.js",
-  "module": "lib/pinia-sf-storage.umd.cjs",
+  "main": "lib/pinia-sf-persistence-storage.js",
+  "module": "lib/pinia-sf-persistence-storage.umd.cjs",
   "types": "typings/index.d.ts",
   "repository": {
     "type": "git",
