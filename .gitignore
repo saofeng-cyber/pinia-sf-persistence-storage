@@ -1,2 +1,13 @@
 node_modules
 publish.sh
+pnpm-lock.yaml
+tsconfig.json
+tsup.config.ts
+example
+.husky
+.DS_Store
+.idea
+.vscode
+dist
+coverage
+/.log/
