@@ -1,5 +1,5 @@
 {
-  "name": "pinia-sf-persistence-storage",
+  "name": "pinia-persistence-sf-storage",
   "version": "1.0.1",
   "description": "pinia持久化插件，如果有bug或者新的建议可以提issue",
   "type": "commonjs",
