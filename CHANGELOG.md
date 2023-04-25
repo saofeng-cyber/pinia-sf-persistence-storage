@@ -1,6 +1,7 @@
-## <small>1.0.11 (2023-04-25)</small>
+## <small>1.0.12 (2023-04-25)</small>
 
 * 1.0.11 ([5d6453e](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/5d6453e))
+* 去除日志anglar规则 ([5a3a4be](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/5a3a4be))
 * feat: 修改changlog ([fd7d57f](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/fd7d57f))
 
 
