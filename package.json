@@ -3,8 +3,8 @@
   "version": "1.0.6",
   "description": "pinia持久化插件，如果有bug或者新的建议可以提issue",
   "type": "module",
-  "main": "lib/pinia-sf-persistence-storage.js",
-  "types": "typings/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git@github.com:saofeng-cyber/pinia-sf-persistence-storage.git"
@@ -13,10 +13,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd ./example && vite",
-    "build": "vite build",
+    "build": "tsup --dts --config tsup.config.ts",
     "prepare": "husky install",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "commit": "cz"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
     "pinia",
@@ -27,18 +26,18 @@
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
     "@types/node": "^18.16.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.1",
-    "@typescript-eslint/parser": "^5.59.1",
     "conventional-changelog": "^3.1.25",
     "conventional-changelog-cli": "^2.2.2",
     "crypto-js": "^4.1.1",
     "husky": "^8.0.3",
     "pinia": "^2.0.35",
-    "terser": "^5.17.1",
-    "vite": "^4.3.1"
+    "tsup": "^6.7.0"
   },
   "peerDependencies": {
-    "crypto-js": "^4.1.1",
-    "pinia": "^2.0.35"
+    "pinia": "^2.0.0"
+  },
+  "readme": "<p align=\"center\">\n  <img alt=\"\" src=\"https://i.imgur.com/prUNzrf.png\">\n</p>\n\n<p align=\"center\">\n  <i>Artwork from <a href=\"https://pinia.vuejs.org/\">Pinia</a></i>\n</p>\n\n<h1 align=\"center\">@saofeng_cyber/pinia-sf-persistence-storage</h1>\n<p align=\"center\">Persistence and rehydration of Pinia stores, backed by `browser.storage`.</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/pinia-plugin-webext-storage\"><img alt=\"npm\" src=\"https://img.shields.io/github/package-json/v/ohmree/pinia-plugin-webext-storage?style=flat&color=orange\" /></a>\n  <a href=\"https://github.com/ohmree/pinia-plugin-webext-storage/tree/HEAD/LICENSE.md\"><img alt=\"License\" src=\"https://img.shields.io/github/license/ohmree/pinia-plugin-webext-storage?style=flat&color=blue\" /></a>\n</p>",
+  "dependencies": {
+    "typescript": "^5.0.4"
   }
 }
