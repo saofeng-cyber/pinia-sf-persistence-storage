@@ -1,4 +1,4 @@
-## 1.0.2 (2023-04-25)
+## [1.0.2](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/f248b5e3f3b5ceebe1b13a375432785f55470ccd...v1.0.2) (2023-04-25)
 
 
 ### Bug Fixes
