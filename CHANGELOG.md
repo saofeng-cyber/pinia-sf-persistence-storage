@@ -1,4 +1,9 @@
-# Unreleased (2023-04-25)
+## [1.0.11](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.10...v1.0.11) (2023-04-25)
+
+
+### Features
+
+* 修改changlog ([fd7d57f](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/fd7d57ffd1fef6c9b512649e1155ce37b12a7341))
 
 
 
