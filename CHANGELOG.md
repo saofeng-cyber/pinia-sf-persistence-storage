@@ -1,3 +1,7 @@
+## [1.0.7](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.6...v1.0.7) (2023-04-25)
+
+
+
 ## [1.0.6](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.6-0...v1.0.6) (2023-04-25)
 
 
