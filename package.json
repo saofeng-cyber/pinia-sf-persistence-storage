@@ -15,7 +15,7 @@
     "dev": "cd ./example && vite",
     "build": "tsup --dts --config tsup.config.ts",
     "prepare": "husky install",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
     "pinia",
