@@ -1,0 +1,10 @@
+import { createApp } from 'vue';
+import './style.css';
+import App from './App.vue';
+import { createPinia } from 'pinia';
+import { myPiniaStoragePlugin } from '../../src/index';
+const app = createApp(App);
+const store = createPinia();
+store.use(myPiniaStoragePlugin);
+app.use(store);
+app.mount('#app');
