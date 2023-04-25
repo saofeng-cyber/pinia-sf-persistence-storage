@@ -1,8 +1,2 @@
 node_modules
 publish.sh
-pnpm-lock.yaml
-tsconfig.json
-tsup.config.ts
-example
-env.d.ts
-.husky
