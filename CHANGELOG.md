@@ -1,3 +1,12 @@
+## [1.0.4-0](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.3...v1.0.4-0) (2023-04-25)
+
+
+### Bug Fixes
+
+* 修复tsconfig报错 ([c89baac](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/c89baac5657a966f5a259f4e7d46bfdc1f244106))
+
+
+
 ## [1.0.3](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/compare/v1.0.2...v1.0.3) (2023-04-25)
 
 
