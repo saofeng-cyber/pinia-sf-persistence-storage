@@ -3,19 +3,19 @@
 ## 安装
 
 ```pnpm
-pnpm add pinia-sf-persistence-storage
+pnpm add @saofeng_cyber/pinia-sf-persistence-storage
 ```
 
 或者
 
 ```yarn
-yarn add pinia-sf-persistence-storage
+yarn add @saofeng_cyber/pinia-sf-persistence-storage
 ```
 
 或者
 
 ```npm
-npm add pinia-sf-persistence-storage
+npm add @saofeng_cyber/pinia-sf-persistence-storage
 ```
 
 ## 使用
@@ -25,7 +25,7 @@ npm add pinia-sf-persistence-storage
 ```ts
 import { createApp } from "vue";
 import { createPinia } from "pinia";
-import { myPiniaStoragePlugin } from "pinia-sf-storage";
+import { myPiniaStoragePlugin } from "@saofeng_cyber/pinia-sf-persistence-storage";
 import App from "./App.vue";
 
 const app = createApp(App);
