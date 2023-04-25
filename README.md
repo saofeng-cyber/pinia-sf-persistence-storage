@@ -75,7 +75,7 @@ interface PersistType {
 
 👤 **saofeng**
 
-* Github: [@saofeng\_cyber](https://github.com/saofeng\_cyber)
+* Github: [@saofeng-cyber](https://github.com/saofeng-cyber)
 
 ## Show your support
 
