@@ -1,6 +1,6 @@
 {
   "name": "@saofeng_cyber/pinia-sf-persistence-storage",
-  "version": "1.0.12",
+  "version": "2.0.0",
   "description": "pinia持久化插件，如果有bug或者新的建议可以提issue",
   "type": "module",
   "main": "lib/index.cjs",
