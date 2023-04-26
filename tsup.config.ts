@@ -1,12 +1,12 @@
-import { defineConfig } from 'tsup'
+import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ['src/index.ts'],
+  entry: ["src/index.ts"],
   outDir: "lib",
   minify: true,
-  external: ['pinia'],
-  format: ['esm'],
+  external: ["pinia"],
+  format: ["esm", "cjs"],
   splitting: false,
-  sourcemap: true,
+  sourcemap: false,
   clean: true,
-})
+});

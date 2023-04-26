@@ -3,7 +3,8 @@
   "version": "1.0.12",
   "description": "pinia持久化插件，如果有bug或者新的建议可以提issue",
   "type": "module",
-  "main": "lib/index.js",
+  "main": "lib/index.cjs",
+  "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
@@ -12,7 +13,7 @@
   "homepage": "https://github.com/saofeng-cyber/pinia-sf-persistence-storage",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cd ./example && vite",
+    "dev": "cd ./example && pnpm vite",
     "build": "tsup --dts --config tsup.config.ts",
     "prepare": "husky install",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 -u && git add CHANGELOG.md"

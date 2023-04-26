@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { useAppStore } from '@/store/app';
+import { computed } from "vue";
+import { useAppStore } from "@/store/app";
 const useApp = useAppStore();
 const add = () => {
   useApp.increment();
