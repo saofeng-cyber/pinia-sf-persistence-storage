@@ -1,5 +1,6 @@
 ## Unreleased (2023-04-26)
 
+* 修改兼容commonjs环境 ([8c0a5a4](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/8c0a5a4))
 
 
 
