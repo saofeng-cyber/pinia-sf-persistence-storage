@@ -1,5 +1,11 @@
+## Unreleased (2023-04-26)
+
+
+
+
 ## 2.0.0 (2023-04-26)
 
+* 2.0.0 ([81cc8aa](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/81cc8aa))
 * 修改兼容commonjs环境 ([64d5f9d](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/64d5f9d))
 * 修改兼容commonjs环境 ([8c0a5a4](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/8c0a5a4))
 

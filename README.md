@@ -1,4 +1,12 @@
-<h1 align="center">Welcome to @saofeng_cyber/pinia-sf-persistence-storage 👋</h1>
+<p align="center">
+  <img alt="" src="https://i.imgur.com/prUNzrf.png">
+</p>
+
+<p align="center">
+  <i>Artwork from <a href="https://pinia.vuejs.org/">Pinia</a></i>
+</p>
+<h1 align="center">pinia-sf-persistence-storage</h1>
+<p align="center">Configurable persistence and rehydration of Pinia stores.</p>
 <p align="center">
   <a href="https://www.npmjs.com/package/@saofeng_cyber/pinia-sf-persistence-storage" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@saofeng_cyber/pinia-sf-persistence-storage.svg">
@@ -8,15 +16,14 @@
   </a>
 </p>
 
-> pinia持久化插件，如果有bug或者新的建议可以提issue
-
-### 🏠 [Homepage](https://github.com/saofeng-cyber/pinia-sf-persistence-storage)
+# 🚀 Quickstart
 
 ## 安装
 
 ```sh
 pnpm add @saofeng_cyber/pinia-sf-persistence-storage
 ```
+
 或者
 
 ```sh
@@ -29,7 +36,7 @@ yarn add @saofeng_cyber/pinia-sf-persistence-storage
 npm add @saofeng_cyber/pinia-sf-persistence-storage
 ```
 
-## 使用
+# 使用
 
 在入口文件 `main.ts` 使用
 
@@ -47,7 +54,7 @@ pinia.use(myPiniaStoragePlugin);
 app.use(pinia).mount("#app");
 ```
 
-## 选项
+# 选项
 
 ```ts
 export interface PersistType {
@@ -71,15 +78,19 @@ interface PersistType {
 }
 ```
 
-## Author
+# Author
 
 👤 **saofeng**
 
-* Github: [@saofeng-cyber](https://github.com/saofeng-cyber)
+- Github: [@saofeng-cyber](https://github.com/saofeng-cyber)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
+
+📝 License
