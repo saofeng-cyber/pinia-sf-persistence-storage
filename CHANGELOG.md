@@ -1,5 +1,6 @@
-## Unreleased (2023-04-26)
+## <small>2.0.1 (2023-04-26)</small>
 
+* 修改说明文件 ([46dfa80](https://github.com/saofeng-cyber/pinia-sf-persistence-storage/commit/46dfa80))
 
 
 
